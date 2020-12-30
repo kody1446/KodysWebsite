@@ -1,0 +1,210 @@
+body{
+    display: block;
+    
+}
+
+section.home{
+    display:block;
+    background: url(background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+    
+}
+section.home .main-inner{
+  background-color: rgba(3, 140, 158, 0.75);
+  background-clip: content-box;
+  padding: 2vw;
+  max-width: 100%;
+  text-align: center;
+  margin-left: 20%;
+  margin-right:20%;
+
+}
+section.home .home-heading{
+    font-size: 2em;
+    font-weight: 500;
+    color: #fff;
+    
+    
+}
+section.home .home-subhead{
+  font-size: 1.75em;
+  font-weight: 300;
+  text-transform: none;
+  color: #fff;
+}
+
+/* The sidepanel menu */
+.sidepanel {
+  height: 35%; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: rgb(63, 63, 63); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 2%; 
+  transition: 0.5s; 
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  
+  transition: 0.4s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: rgba(3, 140, 158, 0.75);
+}
+
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  position: fixed;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:rgba(3, 140, 158, 0.75);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+img.profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25%;
+
+}
+section.myoffer{
+  display:block;
+  color: rgb(0, 0, 0);
+  font-size: 1.25em;
+  font-weight: 350;
+  max-height: auto;
+}
+p.resume{
+  padding-left: 50%;
+  padding-bottom: 5%;
+}
+.portfolio{
+  font-size: 1.25em;
+  color: rgb(3, 3, 3);
+  font-weight: 350;
+ 
+}
+div.cplusplus{
+  text-align: left;
+  font-size: .95em;
+}
+h1.header{
+  font-size: 1.25em;
+  text-align: left;
+  font-weight: bold;
+  text-shadow: #444;
+  color: rgba(3, 140, 158, 0.8);
+
+}
+h1.title{
+  font-size: 1.25em;
+  border-bottom: outset;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: center;
+  color: rgba(3, 140, 158, 0.8);
+}
+img.firstproject{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  max-height: 75%;
+}
+.column {
+  float: left;
+  width: 20%;
+}
+
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+  width: 50%;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  height: 45%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.IMcontainer{
+  
+  position:fixed;
+  display: none;
+  max-width: 90%;
+  padding-top: 15px;
+  padding-left: 15px;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: rgb(7, 7, 7);
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: rgba(3, 140, 158);
+  font-size: 12vw;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.contact{
+  padding-top: 5vh;
+  color: #fff;
+  background-color: rgba(62, 165, 179, 0.541);
+  background-clip: content-box;
+  padding: 2vw;
+  max-width: 100%;
+  text-align: center;
+  margin-left: 20%;
+  margin-right:20%;
+  
+}
+
+
